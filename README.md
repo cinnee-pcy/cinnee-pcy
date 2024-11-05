@@ -1,12 +1,29 @@
-## Hi, I'm Cinnee ✨
+# Hi, I'm Cinnee ✨
 
-<!--
-**cinnee-pcy/cinnee-pcy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```java
 
-Here are some ideas to get you started:
+public class Cinnee {
+  public String name = "Kawisara Prasitnui";
+  public int age = 21;
+  public String myLocation = "Thailand";
+  public String myLanguage = "TH|EN";
+  public String[] mySkill = {"Java", "C", "Python", "HTML", "SQL"};
 
-struct Programmer{
-  let name = "Kawisara Prasitnui"
-  let age = "21"
-  let road_to = "PhD of Computer Science | Cybersecurity"
+  public void printME(){
+    System.out.println("👩‍💻Coding hard Play harder");
+  }
+
+  private String getRoadto(){
+    return "PhD of Computer Science | Cybersecurity";
+  }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        Cinnee cinnee = new Cinnee();
+        cinnee.printME();
+    }
+}
+
+```
+
